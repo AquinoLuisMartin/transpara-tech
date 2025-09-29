@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Transpara Tech
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern React application built with Vite for faster development and optimized production builds.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- ⚡️ **Lightning Fast Dev Experience** - Powered by Vite for instant server start and hot module replacement
+- 🔄 **React** - Using the latest version of React with functional components and hooks
+- 🎨 **Modern CSS** - Clean styling with light/dark mode support
+- 📦 **Optimized Bundle** - Efficient bundle size for production
+- 🧹 **ESLint** - Modern linting setup for code quality
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js (v18 or higher recommended)
+- npm or yarn
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# Install dependencies
+npm install
+# or
+yarn
+```
 
-### `npm run build`
+### Development
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Start the development server
+npm run dev
+# or
+yarn dev
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app will be available at [http://localhost:5173](http://localhost:5173)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Building for Production
 
-### `npm run eject`
+```bash
+# Create a production build
+npm run build
+# or
+yarn build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Preview Production Build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Preview the production build locally
+npm run preview
+# or
+yarn preview
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+transpara-tech/
+├── public/              # Static assets
+│   └── vite.svg         # Vite logo
+├── src/                 # Source code
+│   ├── assets/          # Project assets
+│   │   └── react.svg    # React logo
+│   ├── App.css          # App component styles
+│   ├── App.jsx          # Main App component
+│   ├── index.css        # Global styles
+│   └── main.jsx         # Entry point
+├── eslint.config.js     # ESLint configuration
+├── package.json         # Project dependencies and scripts
+├── README.md            # Project documentation
+└── vite.config.js       # Vite configuration
+```
 
-## Learn More
+## Customizing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Adding Dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install <package-name>
+# or
+yarn add <package-name>
+```
 
-### Code Splitting
+### ESLint Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Edit `eslint.config.js` to customize the linting rules.
 
-### Analyzing the Bundle Size
+### Vite Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Edit `vite.config.js` to customize the build process, add plugins, or configure other Vite options.
